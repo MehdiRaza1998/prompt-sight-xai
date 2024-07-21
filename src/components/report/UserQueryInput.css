@@ -1,0 +1,26 @@
+/* UserQueryInput.css */
+.user-query-form {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
+.user-query-input {
+  margin-bottom: 12px;
+  padding: 8px;
+  font-size: 1em;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}

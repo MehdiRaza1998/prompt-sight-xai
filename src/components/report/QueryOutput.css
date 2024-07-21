@@ -1,0 +1,13 @@
+/* QueryOutput.css */
+.query-output {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 4px;
+  }
+  
+  .query-output pre {
+    font-family: monospace;
+  }
+  

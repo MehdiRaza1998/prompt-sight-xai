@@ -1,0 +1,13 @@
+/* Explanation.css */
+.explanation {
+    padding: 16px;
+    margin: 16px;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    border: 1px solid #ddd;
+  }
+  
+  .explanation p {
+    margin: 0;
+  }
+  

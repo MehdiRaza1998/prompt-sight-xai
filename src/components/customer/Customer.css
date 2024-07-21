@@ -1,0 +1,55 @@
+/* Customer.css */
+
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto; /* Center the table */
+    border: 1px solid black;
+
+  }
+  
+  thead {
+    background-color: #333;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+
+
+  /* Customer.css */
+.customer-container {
+    margin: 20px;
+    margin: auto;
+    text-align: center; /* Center the content */
+  }
+  
+  .center {
+    text-align: center; /* Center the h2 */
+  }
+  
+  button {
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
