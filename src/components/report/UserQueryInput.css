@@ -24,3 +24,7 @@
 .submit-btn:hover {
   background-color: #218838;
 }
+.centered-div{
+  display: flex;
+  justify-content: center;
+}

@@ -2,15 +2,10 @@
 import React, { useState } from 'react';
 import './UserQueryInput.css';
 
-function UserQueryInput({userQuery, setUserQuery, onUserQuerySubmit }) {
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    onUserQuerySubmit();
-  };
+function UserQueryInput({ userQuery, setUserQuery, onUserQuerySubmitLlama, onUserQuerySubmitGemini }) {
 
   return (
-    <form onSubmit={handleSubmit} className="user-query-form">
+    <div className="user-query-form">
       <h2>Enter Your Query in Natural Language:</h2>
       <input
         className="user-query-input"
@@ -19,8 +14,11 @@ function UserQueryInput({userQuery, setUserQuery, onUserQuerySubmit }) {
         onChange={(e) => setUserQuery(e.target.value)}
         placeholder="E.g., Show me customers who bought yesterday."
       />
-      <button type="submit" className="submit-btn">Generate SQL Query</button>
-    </form>
+      <div className='centered-div'>
+        <button onClick={onUserQuerySubmitLlama} className="submit-btn">Generate SQL Query (LLama)</button>
+        <button onClick={onUserQuerySubmitGemini} className="submit-btn">Generate SQL Query (Gemini)</button>
+      </div>
+    </div>
   );
 }
 
